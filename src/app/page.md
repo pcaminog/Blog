@@ -25,6 +25,6 @@ We invite you to explore our blog, gain insights, and discover how mon1tor can b
 
 {% quick-links %}
 
-{% quick-link title="DNS dangling" href="/docs/dealing-dns-dangling" date="2022/12/23" description="Understanding, Case Study, Best Practices, and Solutions with mon1tor." /%}
+{% quick-link title="DNS dangling" href="/posts/dealing-dns-dangling" date="2022/12/23" description="Understanding, Case Study, Best Practices, and Solutions with mon1tor." /%}
 
 {% /quick-links %}

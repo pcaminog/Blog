@@ -4,7 +4,7 @@ export const navigation = [
     links: [
       {
         title: 'Dealing with DNS dangling',
-        href: '/docs/dealing-dns-dangling',
+        href: '/posts/dealing-dns-dangling',
       },
     ],
   },
@@ -13,7 +13,7 @@ export const navigation = [
     links: [
       {
         title: 'Dealing with DNS dangling',
-        href: '/docs/dealing-dns-dangling',
+        href: '/posts/dealing-dns-dangling',
       },
     ],
   },
