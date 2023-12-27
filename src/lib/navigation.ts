@@ -6,6 +6,10 @@ export const navigation = [
         title: 'Dealing with DNS dangling',
         href: '/posts/dealing-dns-dangling',
       },
+      {
+        title: 'Critical Need for Infrastructure Monitoring',
+        href: '/posts/need-infrastructure-monitoring',
+      },
     ],
   },
   {
@@ -14,6 +18,10 @@ export const navigation = [
       {
         title: 'Dealing with DNS dangling',
         href: '/posts/dealing-dns-dangling',
+      },
+      {
+        title: 'Critical Need for Infrastructure Monitoring',
+        href: '/posts/need-infrastructure-monitoring',
       },
     ],
   },
