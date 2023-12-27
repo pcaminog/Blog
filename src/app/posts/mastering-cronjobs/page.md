@@ -25,7 +25,7 @@ Cron jobs are a cornerstone of automated task scheduling on Unix-like systems. U
 - **Basic Format**: A cron job is defined by a line in a 'crontab', typically consisting of five time-and-date fields, followed by a command or script to run:
 
 ```shell
-* * * * * /path/to/script`
+* * * * * /path/to/script
 ```
 
 Each asterisk corresponds to a time unit: minute, hour, day of the month, month, and day of the week, in that order.
@@ -69,12 +69,23 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 - Open the cron table for the current user with the `crontab -e` command. This command opens the user's cron table in the default text editor.
 
 ### Step 4: Schedule Your Script
-- Add a line to the cron table following the format: `* * * * * /path/to/script`.
+- Add a line to the cron table following the format: 
+
+```shell
+* * * * * /path/to/script
+```
+
 - Replace `/path/to/script` with the full path to your script.
 - Configure the time and frequency for the script execution using the cron format.
 
 ### Step 5: Redirect Output to a Log File (Optional)
-- To keep a log of the script's output, append `>> /path/to/logfile.log 2>&1` to the cron job line.
+- To keep a log of the script's output, append 
+
+
+```shell
+>> /path/to/logfile.log 2>&1
+``` 
+to the cron job line.
 
 ### Step 6: Save and Exit
 - Save the changes to the crontab and exit the editor. The cron daemon will automatically implement the new schedule.
@@ -85,7 +96,7 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 ### Example Cron Job Entry:
 
 ```shell
-0 * * * * /home/user/yourscript >> /home/user/yourscript.log 2>&1`
+0 * * * * /home/user/yourscript >> /home/user/yourscript.log 2>&1
 ```
 
 _This example runs `yourscript` every hour and logs the output._
@@ -154,7 +165,7 @@ Each asterisk represents a unit of time (minute, hour, day, month, weekday).
 - Enter the line for your cron job. For instance, to run a script daily at 10 AM, you would write:
 
 ```shell
-0 10 * * * /path/to/script,sh`
+0 10 * * * /path/to/script,sh
 ```
 
 - Make sure to provide the full path to the script or command you want to run.
