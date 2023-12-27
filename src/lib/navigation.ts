@@ -10,6 +10,10 @@ export const navigation = [
         title: 'Critical Need for Infrastructure Monitoring',
         href: '/posts/need-infrastructure-monitoring',
       },
+      {
+        title: 'Mastering Scheduled Tasks - Part 1',
+        href: '/posts/mastering-cronjobs',
+      },
     ],
   },
   {
@@ -22,6 +26,10 @@ export const navigation = [
       {
         title: 'Critical Need for Infrastructure Monitoring',
         href: '/posts/need-infrastructure-monitoring',
+      },
+      {
+        title: 'Mastering Scheduled Tasks - Part 1',
+        href: '/posts/mastering-cronjobs',
       },
     ],
   },
