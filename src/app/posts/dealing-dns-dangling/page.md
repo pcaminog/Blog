@@ -1,6 +1,6 @@
 ---
 title: Dealing with DNS Dangling - Understanding, Case Study, Best Practices, and Solutions with mon1tor
-date: '2022-02-02'
+date: '2023-12-01'
 nextjs:
   metadata:
     title: Dealing with DNS Dangling - mon1tor
