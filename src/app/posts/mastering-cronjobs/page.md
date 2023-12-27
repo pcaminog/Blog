@@ -24,7 +24,9 @@ Cron jobs are a cornerstone of automated task scheduling on Unix-like systems. U
 
 - **Basic Format**: A cron job is defined by a line in a 'crontab', typically consisting of five time-and-date fields, followed by a command or script to run:
 
-`* * * * * /path/to/script`
+```shell
+* * * * * /path/to/script`
+```
 
 Each asterisk corresponds to a time unit: minute, hour, day of the month, month, and day of the week, in that order.
 
@@ -82,8 +84,9 @@ Cron is a time-based job scheduler in Unix-like operating systems, including Lin
 
 ### Example Cron Job Entry:
 
-`0 * * * * /home/user/yourscript >> /home/user/yourscript.log 2>&1`
-
+```shell
+0 * * * * /home/user/yourscript >> /home/user/yourscript.log 2>&1`
+```
 
 _This example runs `yourscript` every hour and logs the output._
 
@@ -141,15 +144,18 @@ macOS supports cron jobs natively, similar to other Unix-like systems. This allo
 ### Step 3: Define Your Cron Job
 - Use the standard cron format to schedule your task. The format is as follows:
 
-`* * * * * /path/to/script`
-
+```shell
+* * * * * /path/to/script`
+```
 
 Each asterisk represents a unit of time (minute, hour, day, month, weekday).
 
 ### Step 4: Write the Cron Entry
 - Enter the line for your cron job. For instance, to run a script daily at 10 AM, you would write:
 
-`0 10 * * * /path/to/script,sh`
+```shell
+0 10 * * * /path/to/script,sh`
+```
 
 - Make sure to provide the full path to the script or command you want to run.
 
