@@ -14,6 +14,10 @@ export const navigation = [
         title: 'Mastering Scheduled Tasks - Part 1',
         href: '/posts/mastering-cronjobs',
       },
+      {
+        title: 'Mastering Scheduled Tasks - Part 2',
+        href: '/posts/mastering-cronjobs-pt2',
+      },
     ],
   },
   {
@@ -30,6 +34,10 @@ export const navigation = [
       {
         title: 'Mastering Scheduled Tasks - Part 1',
         href: '/posts/mastering-cronjobs',
+      },
+      {
+        title: 'Mastering Scheduled Tasks - Part 2',
+        href: '/posts/mastering-cronjobs-pt2',
       },
     ],
   },
